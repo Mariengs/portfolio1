@@ -1,6 +1,6 @@
 # Portfolio 1
 
-![image](https://github.com/Mariengs/semesterproject/blob/main/Images/logo1.png?raw=true)
+![image]("")
 
 
 
