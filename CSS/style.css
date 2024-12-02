@@ -1,37 +1,99 @@
+/* Global styling */
 body {
+  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-  background-color: #0d1117;
+  box-sizing: border-box;
+  background-color: #333;
 }
 
-a {
-  text-decoration: none;
-  color: #fff;
-}
-
+/* Header-styling */
 header {
+  background-color: #333;
+  color: white;
+  padding: 40px 0;
+}
+
+header p {
+  font-size: 16px;
+  font-style: italic;
+  padding: 40px;
+  margin: 0;
+}
+
+main {
+  padding: 20px;
+  color: white;
+  padding-bottom: 60px;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Prosjektene */
+.projects-container {
   display: flex;
-  background-color: #161b22;
-  color: #fff;
-  padding: 20px;
+  justify-content: center; /* Sentrerer prosjektseksjonen horisontalt */
+  align-items: center; /* Sentrerer vertikalt */
 }
 
-.main-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  color: #fff;
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px; /* Begrens bredden på kortene */
+  width: 100%;
 }
 
-.home-section {
-  flex-grow: 1;
-  padding: 20px;
-}
-
-footer {
-  background-color: #161b22;
-  color: #fff;
-  padding: 20px;
+/* Prosjektkort styling */
+.project-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
   text-align: center;
+  padding: 15px;
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.project-card h2 {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+.project-card p {
+  color: #666;
+  font-size: 1em;
+  margin: 10px 0;
+}
+
+.project-card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.project-card a:hover {
+  background-color: #2980b9;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
