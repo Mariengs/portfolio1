@@ -3,9 +3,10 @@ Develop a Portfolio Webpage:
 List the three projects as cards.
 
 Each card must include:
-Title of the project
+Title of the project OK 
 Description
-Screenshot of the running project
-Links to the GitHub repo and live site (if applicable)
+Screenshot of the running project OK 
+Links to the GitHub repo and live site OK  (if applicable)
 
-Ensure the webpage looks professional, is responsive, and is hosted (preferably on GitHub Pages or Netlify).
+Ensure the webpage looks professional, is responsive,
+ and is hosted (preferably on GitHub Pages or Netlify).
