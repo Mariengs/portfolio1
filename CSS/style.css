@@ -13,11 +13,17 @@ header {
   padding: 40px 0;
 }
 
-header p {
+.headertext {
+  padding: 10px;
+}
+
+.name {
   font-size: 16px;
+}
+
+.occupation {
+  font-size: 12px;
   font-style: italic;
-  padding: 40px;
-  margin: 0;
 }
 
 main {
@@ -26,8 +32,21 @@ main {
   padding-bottom: 60px;
 }
 
+.maintext {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
 h1 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
   margin: 0;
+}
+
+.aboutme {
+  font-size: 14px;
+  margin-top: 10px;
+  font-style: oblique;
 }
 
 /* Prosjektene */
@@ -63,6 +82,7 @@ h1 {
 }
 
 .project-card h2 {
+  color: #333;
   font-size: 1.5em;
   margin-top: 10px;
 }
@@ -96,4 +116,139 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    padding: 30px 0;
+  }
+
+  .headertext {
+    padding: 8px;
+  }
+
+  .name {
+    font-size: 14px;
+  }
+
+  .occupation {
+    font-size: 10px;
+  }
+
+  main {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  .projects {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+  }
+
+  .project-card {
+    padding: 12px;
+  }
+
+  .project-card h2 {
+    font-size: 1.3em;
+  }
+
+  .project-card p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    padding: 20px 0;
+  }
+
+  .headertext {
+    padding: 5px;
+  }
+
+  .name {
+    font-size: 12px;
+  }
+
+  .occupation {
+    font-size: 10px;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr; /* Single column for mobile */
+    gap: 10px;
+  }
+
+  .project-card {
+    padding: 10px;
+  }
+
+  .project-card h2 {
+    font-size: 1.2em;
+  }
+
+  .project-card p {
+    font-size: 0.9em;
+  }
+
+  footer {
+    position: relative;
+    padding: 15px 0;
+  }
+}
+
+/* For devices with a max-width of 480px (Small mobile screens) */
+@media screen and (max-width: 480px) {
+  header {
+    padding: 15px 0;
+  }
+
+  .headertext {
+    padding: 3px;
+  }
+
+  .name {
+    font-size: 10px;
+  }
+
+  .occupation {
+    font-size: 8px;
+  }
+
+  main {
+    padding: 5px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr; /* Single column for smaller mobile screens */
+    gap: 5px;
+  }
+
+  .project-card {
+    padding: 8px;
+  }
+
+  .project-card h2 {
+    font-size: 1.1em;
+  }
+
+  .project-card p {
+    font-size: 0.85em;
+  }
 }
