@@ -1,6 +1,6 @@
 # Portfolio 1
 
-![image]("https://github.com/Mariengs/portfolio1/blob/main/Skjermbilde%202024-12-03%20kl.%2011.45.39.png")
+![image](https://github.com/Mariengs/portfolio1/blob/main/Skjermbilde%202024-12-03%20kl.%2011.45.39.png?raw=true)
 
 
 
